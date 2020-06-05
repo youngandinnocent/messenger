@@ -1,0 +1,10 @@
+{
+  "name": "messenger",
+  "content": {
+    "description": "This is messenger prototype.\nHe can send your messages to Andrew and vice versa.\nYou can create many chats and delete them if you are tired of them.\nA new message from Andrew will be highlighted and you will never miss it.",
+    "intern": "Ivan Bermanov",
+    "teacher": "Igor Filimonov",
+    "course": "React for VTB",
+    "school": "GeekBrains"
+  }
+}

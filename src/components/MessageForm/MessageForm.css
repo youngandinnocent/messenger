@@ -1,0 +1,38 @@
+.message-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-form__author {
+  width: 20%;
+}
+
+.message-form__content {
+  width: 70%;
+}
+
+@media screen and (max-width: 1440px) {
+  .message-form__content {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .message-form__content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .message-form__content {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .message-form button {
+    width: 36px;
+    height: 36px;
+  }
+}

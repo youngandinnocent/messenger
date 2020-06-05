@@ -1,0 +1,42 @@
+{
+  "1": {
+    "id": 1,
+    "name": "GeekBrains. JS+React для молодых специалистов Банка ВТБ (ПАО)",
+    "messages": [],
+    "unread": false,
+    "marked": false,
+    "avatarSrc": "./api/assets/image/geekbrains.jpeg"
+  },
+  "2": {
+    "id": 2,
+    "name": "VTB_Scrubs",
+    "messages": [],
+    "unread": false,
+    "marked": false,
+    "avatarSrc": "./api/assets/image/vtb.jpeg"
+  },
+  "3": {
+    "id": 3,
+    "name": "Стажеры ВТБ",
+    "messages": [],
+    "unread": false,
+    "marked": false,
+    "avatarSrc": "./api/assets/image/interns.jpeg"
+  },
+  "4": {
+    "id": 4,
+    "name": "FrontEndDev",
+    "messages": [],
+    "unread": false,
+    "marked": false,
+    "avatarSrc": "./api/assets/image/frontend.jpeg"
+  },
+  "5": {
+    "id": 5,
+    "name": "Flutter Mobile Dev | Skill-Branch",
+    "messages": [],
+    "unread": false,
+    "marked": false,
+    "avatarSrc": "./api/assets/image/flutter.jpeg"
+  }
+}

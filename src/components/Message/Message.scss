@@ -1,0 +1,19 @@
+.message {
+  background: #fff;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 15px;
+
+  &-owner {
+    align-self: flex-end;
+  }
+
+  &-robot {
+    align-self: flex-start;
+  }
+
+  &-sender {
+    font-size: 0.8em;
+    color: grey;
+  }
+}

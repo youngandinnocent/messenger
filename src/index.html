@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="React messenger prototype application" />
+    <meta name="theme-color" content="#22438b" />
+    <title>Messenger prototype</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="manifest.json" />
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('sw.js').then(
+            (register) => {
+              Notification.requestPermission((result) => {
+                if (result === 'granted') {
+                  navigator.serviceWorker.ready.then((register) => {
+                    register.showNotification('Notifications granted');
+                  });
+                }
+              });
+              console.log('serviceWorker - ok!', register);
+            },
+            (error) => {
+              console.log('serviceWorker - error!', register);
+            },
+          );
+        });
+      }
+
+      window.addEventListener('appinstalled', (event) => {
+        // fetch('SERVER', {});
+        console.log('App installed!');
+      });
+
+      window.addEventListener('beforeinstallprompt', (event) => {
+        console.log('App not installed yet!');
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

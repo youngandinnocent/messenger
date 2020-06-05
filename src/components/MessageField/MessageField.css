@@ -1,0 +1,42 @@
+.message-field {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-chat {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .message-field {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .message-field {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .message-field {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .message-field {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .message-field {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.chat-list {
+  width: 94%;
+}
+
+.chat-list li button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.chat-add {
+  padding-left: 10px;
+}
+
+.chat-item:hover {
+  color: #114dcf;
+  cursor: pointer;
+}
+
+.active,
+.active:hover {
+  background: #bad8fe;
+  color: #000000;
+}
+
+.blink,
+.blink:hover {
+  background: #3b5998;
+  color: #fff;
+  animation: blink 0.4s linear;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+@media screen and (max-width: 375px) and (max-height: 740px) {
+  .chat-list li span {
+    font-size: 0.9rem;
+  }
+  .chat-list li button,
+  .chat-add button {
+    width: 36px;
+    height: 36px;
+  }
+}
