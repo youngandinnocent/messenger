@@ -9,7 +9,7 @@ dist: xenial
 
 env:
   global:
-    - CC_TEST_REPORTER_ID=9a4abe6c67bd965331137d29ad7bb5bff9d8408de4a13036d2d990f1eb694cf5
+    - CC_TEST_REPORTER_ID=55357d6baa31d107a84a1dccdcb330216a2ed78e05dcd6f9129931fa8c8a5598
 
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
