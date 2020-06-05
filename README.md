@@ -5,3 +5,7 @@
 [![Build Status](https://travis-ci.org/youngandinnocent/messenger.svg?branch=master)](https://travis-ci.org/youngandinnocent/messenger)
 
 Instant messaging app
+
+## Видеообзор
+
+[![Watch the video](https://img.youtube.com/vi/9_o9vU3l5CA/maxresdefault.jpg)](https://www.youtube.com/watch?v=9_o9vU3l5CA)
