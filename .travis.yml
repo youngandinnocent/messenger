@@ -7,6 +7,18 @@ os:
 
 dist: xenial
 
+env:
+  global:
+    - CC_TEST_REPORTER_ID=9a4abe6c67bd965331137d29ad7bb5bff9d8408de4a13036d2d990f1eb694cf5
+
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
 script:
   - npx eslint .
   - npm test --coverage
+
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
